@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <title>Cube agenda</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="cube">
+      <div class="face top">
+        <form class="form">
+          <p> Add an event</p>
+          Add title : <input type="text" name="title" class="title"> <!-- Title of the event-->
+          Add date : <input type="date" name="date" class="date"> <!-- Adds the date and time of the event-->
+          <textarea name="description" class="description"> Add description :</textarea><!--Description of the event -->
+          <button type="button" class="add">Add</button>
+        </form>
+      </div>
+      <div class="face front side"></div>
+      <div class="face right side"></div>
+      <div class="face back side">  </div>
+      <div class="face left side">  </div>
+      <div class="face bottom">
+        <p>&copy Silvestru Irina</p>
+      </div>
+    </div>
+  </div>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
